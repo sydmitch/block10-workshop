@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
+}
+
+/* Grid Layout */
+.HolyGrail {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Header, Content, Footer */
+  min-height: 100vh;
+}
+
+.HolyGrailHeader {
+  background: lightblue;
+  text-align: center;
+}
+
+.HolyGrailGrid {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px; /* Left sidebar, content, right sidebar */
+  gap: 1rem; /* Space between grid items */
+  padding: 1rem;
+}
+
+.HolyGrailNav {
+  background: lavenderblush;
+  padding: 1rem;
+  font-size: x-large;
+}
+
+.HolyGrailContent {
+  background: pink;
+  padding: 1rem;
+  overflow-y: auto;
+  font-size: large;
+}
+
+.HolyGrailAside {
+  background: lavenderblush;
+  padding: 1rem;
+  font-size: x-large;
+}
+
+.HolyGrailFooter {
+  background: lightblue;
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
+}
